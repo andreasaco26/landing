@@ -1,0 +1,20 @@
+.banner {
+  background-image: url(../../images/background-plants.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner-info {
+  max-width: 472px;
+}
+.banner h1 {
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: -0.0065em;
+}
+.banner p {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}

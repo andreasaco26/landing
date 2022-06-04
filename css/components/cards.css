@@ -1,0 +1,38 @@
+.card {
+width: 368px;
+text-align: left;
+}
+.card img {
+  height: 264px;
+}
+.card h5 {
+  font-size: 12px;
+  line-height: 22px;
+  color: #909090;
+  text-transform: uppercase;
+}
+
+.card h4 {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.001em
+}
+.card p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.cards-preview {
+  margin-top: 64px;
+  margin-bottom: 120px;
+}

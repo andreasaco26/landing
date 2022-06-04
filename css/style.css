@@ -1,0 +1,47 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
+
+/* Fontawesome */
+@import url(components/banner.css);
+@import url(components/cards.css);
+@import url(components/footer.css);
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  margin: 0;
+}
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: #000000;
+  padding: 12px 32px;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+.btn-primary:hover {
+  background-color: #F35900;
+}
